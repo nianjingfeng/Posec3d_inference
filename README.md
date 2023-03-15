@@ -1,4 +1,3 @@
-Posec3d Inference
 ## Guide
 
 This model utilizes the action recognition method in the factory assembly operation, and this work applies this algorithm to a real-life situation for real-time inference. You can understand how the model is used by [realtime_inference_v101.py](https://github.com/nianjingfeng/Posec3d_inference/blob/master/realtime_inference_v101.py).<br>[Click here](https://openaccess.thecvf.com/content/CVPR2022/papers/Duan_Revisiting_Skeleton-Based_Action_Recognition_CVPR_2022_paper.pdf) to read the algorithm structure about Posec3d.

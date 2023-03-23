@@ -15,7 +15,7 @@ This model contains two stage:
 
 ![hand image](https://mediapipe.dev/images/mobile/hand_landmarks.png)
 
-<br>Action recognition : In this stage, you can easily inference the model by running inference file, you can edit line 95 to change the source of video, or you can use camera to collect the video. The input size of the data is set as 30 frames, and update the input data per frame. <br>In this model, eight actions are recognized, check them in the [label_map.txt](https://github.com/nianjingfeng/Posec3d_inference/blob/master/label_map.txt)
+<br>Action recognition : In this stage, you can easily inference the model by running inference file, you can edit line 95 to change the source of video, or you can use camera to collect the video. The input size of the data is set as 30 frames, and update the input data per frame. In this model, eight actions are recognized, check them in the [label_map.txt](https://github.com/nianjingfeng/Posec3d_inference/blob/master/label_map.txt)
 
 
 Inference

@@ -127,7 +127,7 @@ def collect_data():
                 action = action_stack.get()
                 if action_stack.qsize()>20:
                     action_stack.queue.clear()
-            cv2.putText(frame, action, (10, 40), cv2.FONT_HERSHEY_DUPLEX,1, (0, 255, 255), 1, cv2.LINE_AA)
+            cv2.putText(frame, 'Action : ' + action, (20, 80), cv2.FONT_HERSHEY_DUPLEX,3, (0, 0, 255), 3, cv2.LINE_AA)
             cv2.imshow('frame',frame)
         if cv2.waitKey(1) == ord('q'):
             cap.release()
